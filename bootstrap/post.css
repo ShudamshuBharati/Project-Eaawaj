@@ -1,0 +1,48 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2, h3 {
+    color: #343a40;
+}
+
+/* Post container styles */
+.post-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Error message styles */
+.error-message {
+    color: #e74c3c;
+    font-size: 1.5rem;
+}
+
+/* Post styling */
+.post-title {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.post-status {
+    font-size: 1.1rem;
+    color: #28a745;
+}
+
+.post-message {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.post-date {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 20px;
+}

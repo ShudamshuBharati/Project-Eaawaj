@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c4ebc4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar Styles */
+.navbar {
+    background-color: #35c946;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand img {
+    height: 100px; 
+    width: 100px;; 
+}
+
+.navbar .navbar-brand {
+    color: #734c26;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.navbar .nav-link {
+    color: #836dda;
+    font-size: 1.1rem;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+.navbar .nav-link:hover {
+    color: #080808;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('bgim.webp') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 120px 20px;
+    border-bottom: 5px solid #007bff;
+}
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+    padding: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+#about h2 {
+    color: #0066cc;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 2rem;
+}
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+#contact h2 {
+    color: #0066cc;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 2rem;
+}
+#contact .form-label {
+    font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+}
+#contact .form-control {
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+#contact button {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#contact button:hover {
+    background-color: #004b99;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
